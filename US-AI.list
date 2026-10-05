@@ -1,7 +1,41 @@
+# ==========================================
+# 自定义 AI 规则集 (US-AI)
+# 包含 OpenAI, Claude, Gemini, Copilot, Perplexity, xAI, Midjourney 等
+# ==========================================
+
+# > OpenAI / ChatGPT / Sora
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN,gemini.google.com
-DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,sora.com
+DOMAIN,chatgpt.livekit.cloud
+DOMAIN,host.livekit.cloud
+
+# > Anthropic / Claude
 DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.usercontent.com
+
+# > Google Gemini / Google AI
+DOMAIN,gemini.google.com
+DOMAIN,aistudio.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,makersuite.google.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+
+# > Microsoft Copilot / Bing AI
+DOMAIN,sydney.bing.com
+DOMAIN,copilot.microsoft.com
+DOMAIN-SUFFIX,copilot.office.com
+
+# > Perplexity
+DOMAIN-SUFFIX,perplexity.ai
+
+# > xAI / Grok
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+
+# > Midjourney
+DOMAIN-SUFFIX,midjourney.com
