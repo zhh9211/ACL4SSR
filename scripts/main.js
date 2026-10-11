@@ -968,7 +968,7 @@ const main = (config) => {
   addSelect(groups, G.final, [G.main, G.inside, G.ad]);
   for (const key of ["hk", "tw", "cn", "sg", "jp", "us", "other"]) {
     if (!hasProviders && !region[key].length) continue;
-    addTest(groups, G[key], region[key], key === "other" ? 30 : 15, key === "us" ? 300 : 100, hasProviders ? providerFilters[key] : null);
+    addTest(groups, G[key], region[key], key === "other" ? 30 : 15, 500, hasProviders ? providerFilters[key] : null);
   }
   const manual = { name: G.manual, type: "select", proxies: all.length || hasProviders ? all : ["REJECT"] };
   if (hasProviders) { manual["include-all-providers"] = true; manual["exclude-filter"] = "(?i)" + BAD_NAME.source; manual["empty-fallback"] = "REJECT"; }
