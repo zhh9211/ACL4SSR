@@ -987,7 +987,7 @@ const main = (config) => {
   config["proxy-groups"] = groups;
 
   const providers = {};
-  const rules = ["DOMAIN-SUFFIX,arena.ai,DIRECT"];
+  const rules = ["DOMAIN-SUFFIX,arena.ai,DIRECT", "DOMAIN-SUFFIX,lmarena.ai,DIRECT"];
   for (const [name, url, target] of PROVIDERS) {
     providers["acl4ssr_" + name] = { type: "http", behavior: "classical", format: "text", url, interval: 86400 };
     rules.push(`RULE-SET,acl4ssr_${name},${target}`);
