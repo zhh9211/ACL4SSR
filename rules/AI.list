@@ -9,6 +9,9 @@ DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-KEYWORD,oai
+DOMAIN-KEYWORD,chatgpt
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,gstatic
 DOMAIN-SUFFIX,sora.com
 DOMAIN,cdn.auth0.com
 DOMAIN,chatgpt.livekit.cloud
